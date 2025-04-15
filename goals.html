@@ -37,82 +37,82 @@
 
 <!--IMAGE-->
 
-<img src="..." class="img-fluid" alt="...">
+<img src="assets/goals-image.jpeg" class="img-fluid" alt="Goals Image" style="width: 30%; height: auto; margin: 0 auto; display: block;">
 
-<section>
+<br>
+<br>
+<section class="text-center">
 <h2 class="goals">Short-Term Goals</h2>
-            <ol>
-                <li>Graduate with my Bacheclors in Data Analytics</li>
-                <li>Apply for a higher paying position in tech</li>
-                <li>Gain more professional certifications in AI an Project Management</li>
-            </ol>
-
+            <div class="text-center">
+                <p>Graduate with my Bacheclors in Data Analytics</p>
+                <p>Apply for a higher paying position in tech</p>
+                <p>Gain more professional certifications in AI an Project Management</p>
+            </div>
+<br>
 <h2 class="goals">Long-Term Goals</h2>
-            <ol>
-                <li>Graduate with a Master's degree</li>
-                <li>Create SaaS AI solutions</li>
-                <li>Attend tech conferences more frequently</li>
-            </ol>
+            <div class="text-center">
+                <p>Graduate with a Master's degree</p>
+                <p>Create SaaS AI solutions</p>
+                <p>Attend tech conferences more frequently</p>
+            </div>
 </section>
 
     <br>
 
     <!--VIDEO-->
+<div class="text-center">
+  <iframe 
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/UFrL3LF9uT4?si=Lv1BotAjsgdxOEUS"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+  </iframe>
+</div>
 
-  <video src="https://www.youtube.com/watch?v=UFrL3LF9uT4&pp=ygUTZmVtaW5pbmUgbW90aXZhdGlvbg%3D%3D" class="object-fit-contain" autoplay></video>
-
-    <h2 class="text-center">Contact Form</h2>
-    <p class="text-center">Let's keep in touch! with</p>
+<hr>
 
 <!--CONTACT FORM-->
-    <form>
-        <div class="row mb-3">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3">
-          </div>
-        </div>
-        <fieldset class="row mb-3">
-          <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-          <div class="col-sm-10">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-              <label class="form-check-label" for="gridRadios1">
-                First radio
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-              <label class="form-check-label" for="gridRadios2">
-                Second radio
-              </label>
-            </div>
-            <div class="form-check disabled">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-              <label class="form-check-label" for="gridRadios3">
-                Third disabled radio
-              </label>
-            </div>
-          </div>
-        </fieldset>
-        <div class="row mb-3">
-          <div class="col-sm-10 offset-sm-2">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck1">
-              <label class="form-check-label" for="gridCheck1">
-                Example checkbox
-              </label>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
+    <h2 class="text-center">Let's Keep in Touch</h2>
+    <p class="text-center">Please fill out the form below</p>
+
+<br>
+    
+<form>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+  <label class="form-check-label" for="radioDefault1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+    Default checked radio
+  </label>
+  </div>
+</form> 
+      <!-- FOOTER -->
+ <hr>
+ <footer class="text-center">
+     <p>&copy;<span id="=current-date"></span> Christa Newing. All rights reserved.</p>
+ </footer>
+    
+ <!--JS FOR CURRENT DATE-->
+ <script>
+  document.getElementById("current-date").textContent = new Date().toLocaleDateString();
+  </script>
 
     <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
