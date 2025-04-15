@@ -27,8 +27,8 @@ html {
     z-index: 1000;
   }
 /* RESUME STYLES */
-  .resume-container {
-    margin-top: 60px; /* Adjust this value to match the height of your navbar */
+.resume-container {
+    margin-top: 60px;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -50,23 +50,23 @@ html {
     overflow: hidden;
   }
 
-  .name {
+.name {
     text-align: center;
     color: rgb(122, 168, 237);
   }
 
-  .info {
+.info {
     text-align: center;
     color: rgb(122, 168, 237);
     }
 
-  .skills {
+.skills {
         color: rgb(122, 168, 237);
     }
 
-    .education {
+.education {
         color: rgb(122, 168, 237);
-      }
+    }
 .school-name, .span {
         color: rgb(122, 168, 237);
     }
@@ -74,3 +74,31 @@ html {
         color: rgb(122, 168, 237);
     }
 
+/* COVER LETTER STYLES */
+.cover-container {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 80px auto; /* Center the container */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #434343;
+    font-family: 'Monospace', sans-serif;
+    text-align: left;
+    border: 1px solid #434343;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.hlght {
+    background-color: rgb(191, 212, 244);
+    color: #ffffff;
+}
