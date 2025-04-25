@@ -8,6 +8,7 @@ body {
     color: #434343;
 }
 
+
 html {
     scroll-behavior: smooth;
   }
@@ -72,7 +73,7 @@ html {
 .exp {
         color: rgb(122, 168, 237);
     }
-    
+
 /* COVER LETTER STYLES */
 .cover-container {
     margin-top: 60px;
@@ -103,12 +104,18 @@ html {
 }
 
 /* GOAL STYLES */
-
+h1 {
+    text-align: center;
+    color: rgb(122, 168, 237);
+}
+h2, .goals {
+    text-align: center;
+    color: rgb(122, 168, 237);
+}
 /* FORM STYLES */
 .container {
     margin-top: 60px;
     padding: 20px;
-    background-color: #ffffff;
     max-width: 800px;
     margin: 80px auto; /* Center the container */
     padding: 20px;
@@ -117,15 +124,28 @@ html {
     color: #434343;
     font-family: 'Monospace', sans-serif;
     text-align: left;;
-    background-color: #ffffff;
 }
 
 #message {
-    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
-    height: 100px;
+    height: 100%;
     font-size: 16px;
     text-align: left
+}
+
+/*BUTTON STYLES */
+.btn.btn-primary {
+    background-color: #434343;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn.btn-primary:hover {
+    background-color: #555555;
 }
