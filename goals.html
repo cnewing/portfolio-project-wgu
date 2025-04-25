@@ -33,8 +33,11 @@
       </nav>  
   </header>
 
+<br>
+
     <h1 class="text-center">My Goals</h1>
 
+    <br>
 <!--IMAGE-->
 
 <img src="assets/goals-image.jpeg" class="img-fluid" alt="Goals Image" style="width: 30%; height: auto; margin: 0 auto; display: block;">
@@ -74,14 +77,13 @@
 </div>
 
 <hr>
-
+<br>
 <!--CONTACT FORM-->
-    <h2 class="text-center">Let's Keep in Touch</h2>
+    <h1 class="text-center">Let's Keep in Touch</h1>
     <p class="text-center">Please fill out the form below</p>
 
-<br>
     
-<form>
+<form class="container">
   <!--FIRST NAME-->
   <div class="mb-3">
     <label for="firstName" class="form-label">First Name</label>
@@ -91,31 +93,31 @@
 <!--LAST NAME-->
   <div class="mb-3">
     <label for="firstName" class="form-label">Last Name</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Enter your last name">
+    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
   </div>
 
   <!-- COMPANY NAME-->
   <div class="mb-3">
     <label for="firstName" class="form-label">Company Name</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Enter your company's name">
+    <input type="text" class="form-control" id="companyName" placeholder="Enter your company's name">
   </div>
 
   <!--EMAIL-->
   <div class="mb-3">
     <label for="firstName" class="form-label">Email</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Enter your email">
+    <input type="text" class="form-control" id="email" placeholder="Enter your email">
   </div>
 
   <!--PHONE NUMBER-->
   <div class="mb-3">
     <label for="firstName" class="form-label">Phone Number</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Enter your phone number">
+    <input type="text" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
   </div>
 
   <!--MESSAGE-->
   <div class="mb-3">
     <label for="firstName" class="form-label">Message</label>
-    <input type="text" class="form-control" id="firstName" placeholder="Enter your message here">
+    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message here"></textarea>
   </div>
 
   <!--CONTACT TIME-->
@@ -128,12 +130,12 @@
 
   <div class="form-check">
     <input class="form-check-input" type="radio" name="contactTime" id="contactTimeAM" value="pm">
-    <label class="form-check-label" for="contactTimeAM">P.M.</label>
+    <label class="form-check-label" for="contactTimePM">P.M.</label>
   </div>
 
   <div class="form-check">
     <input class="form-check-input" type="radio" name="contactTime" id="contactTimeAM" value="anytime">
-    <label class="form-check-label" for="contactTimeAM">Anytime</label>
+    <label class="form-check-label" for="contactTimeANY">Anytime</label>
   </div>
 
   </div>
