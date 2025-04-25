@@ -72,10 +72,7 @@ html {
 .exp {
         color: rgb(122, 168, 237);
     }
-
- .p, .company-exp {
-        text-emphasis: bold;
-    }
+    
 /* COVER LETTER STYLES */
 .cover-container {
     margin-top: 60px;
