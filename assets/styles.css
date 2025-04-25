@@ -51,8 +51,9 @@ html {
     overflow: hidden;
   }
 
-.name {
+h1, .name {
     text-align: center;
+    color: #434343;
   }
 
 .info {
