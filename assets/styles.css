@@ -113,6 +113,12 @@ h2, .goals {
     text-align: center;
     color: rgb(122, 168, 237);
 }
+/* IMAGE & VIDEO CITATION */
+figcaption {
+    text-align: center;
+    color: #434343;
+    font-size: xx-small;
+}
 /* FORM STYLES */
 .container {
     margin-top: 60px;
